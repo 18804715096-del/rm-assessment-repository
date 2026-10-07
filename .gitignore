@@ -1,0 +1,59 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Keil MDK
+Objects/
+Listings/
+DebugConfig/
+*.uvguix.*
+*.uvoptx.bak
+*.uvprojx.bak
+*.o
+*.d
+*.crf
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.lnp
+*.dep
+*.bak
+
+# STM32CubeIDE and Eclipse
+Debug/
+Release/
+.metadata/
+.settings/
+*.launch
+
+# CMake and generic builds
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# Python helpers
+__pycache__/
+*.py[cod]
+.venv/
+
+# Temporary measurement and export files
+*.tmp
+*.temp
+*.log
+
+# Keep documentation logs that are intentionally stored under docs/logs
+!docs/logs/
+!docs/logs/*.md
+
